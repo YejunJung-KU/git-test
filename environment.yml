@@ -1,0 +1,17 @@
+name: esci-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy=1.23.5
+  - pandas=1.5.3
+  - scikit-learn=1.1.3
+  - scipy=1.9.3
+  - pip
+  - pip:
+      - transformers[torch]==4.41.0
+      - sentence-transformers==5.1.0
+      - datasets>=2.20.0
+      - rank-bm25
+      - nltk
